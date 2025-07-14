@@ -1,13 +1,4 @@
-	; Name: Nawaf Baddai Aldhawi
-;ID: 2201113545
 
-
-;Name: Fahad faleh alenzi            
-;id: 2201121917
-
-
-; Name: Hamad Faisal Naqi
-; ID: 2192131572
 
 
 
@@ -1319,15 +1310,15 @@ MOV A,#0011B ; Step 5
 ACALL CMD
 MOV A,#0010B ; Step 6
 ACALL CMD
-MOV A,#0010B ; Step 7 – send high nibble
+MOV A,#0010B ; Step 7 Â– send high nibble
 ACALL CMD
 MOV A,#1000B ; send low nibble
 ACALL CMD
-MOV A,#0000B ; Step 8 – Turn off display – send high nibble
+MOV A,#0000B ; Step 8 Â– Turn off display Â– send high nibble
 ACALL CMD
 MOV A,#1000B ; send low nibble
 ACALL CMD
-MOV A,#0 ; Step 9 - Clear Display – send high nibble
+MOV A,#0 ; Step 9 - Clear Display Â– send high nibble
 ACALL CMD
 MOV A,#0001B ; send low nibble
 ACALL CMD
@@ -1336,7 +1327,7 @@ MOV A,#0000B ; Step 10 - Set cursor Move RIGHT- send high nibble
 ACALL CMD
 MOV A,#0110B ; send low nibble
 ACALL CMD
-MOV A,#0000B ; Step 11 –send high nibble
+MOV A,#0000B ; Step 11 Â–send high nibble
 ACALL CMD ; Turn ON Display, Cursor ON, Blink Cursor
 MOV A,#1111B ; send low nibble
 ACALL CMD
@@ -1393,7 +1384,7 @@ AJMP CONT144 ; go to CONT1
 EXIT1:
 POP ACC ; restore A
 RET
-;------------ ˜ 5.4msec DELAY -------------------------------------------
+;------------ Â˜ 5.4msec DELAY -------------------------------------------
 
 LDELAY:
 PUSH 0
