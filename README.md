@@ -10,7 +10,7 @@ This repository contains an **8051 Assembly (.a51)** program written for the **I
 
 This project is part of a learning exercise or embedded system application using the 8051 microcontroller. The specific functionality can be viewed in the `Code.a51` source.
 
->  If this code is part of a lab or project (e.g., blinking LEDs, serial communication, timers), update this section with a short description.
+
 
 ## Tools You Can Use
 
